@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: xjl1994920
+    url: jdbc:mysql://192.168.0.114:3336/jwt
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
